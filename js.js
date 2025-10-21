@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Daftar gambar background (bg1–bg9)
   const totalImages = 8;
-  const imagePaths = Array.from({ length: totalImages }, (_, i) => `img/BG/bg${i + 1}.jpg`);
+  const imagePaths = Array.from({ length: totalImages }, (_, i) => `img/BG/BG${i + 1}.jpg`);
 
   let current = 0;
 
